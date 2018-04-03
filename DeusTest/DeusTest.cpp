@@ -1,5 +1,3 @@
-// DeusTest.cpp: определяет точку входа для консольного приложения.
-//
 #include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -88,7 +86,7 @@ int main()
 	 //здесь будет хранится результат CalculateAP3P. То есть матрица поворота R и вектор трансляции(сдвига) Т
 	 vector<vector<vector<double>>> MY_ANSER_R;
 	 vector<vector<double>>		    MY_ANSER_T;
-	 //Запуск петода AP3P
+	 //Запуск метода AP3P
 	 CalculateAP3P(vec_points3d, vec_points2d,	&MY_ANSER_R ,&MY_ANSER_T);
 
 
