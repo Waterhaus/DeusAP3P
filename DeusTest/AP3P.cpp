@@ -245,7 +245,7 @@
 													 { u1[0],u1[1],mk1 },
 													 { u2[0],u2[1],mk2 } };
 	 
-	 cout << "my B3 = " << u1[0] << " " << u1[1] << " " << mk1 << endl;
+	 
 
 	 return featureVec;
  }
@@ -390,7 +390,7 @@
 		 temp_matrix = mat3_mul(Ck1K3, C_cs);
 		 R =  mat3_mul(temp_matrix, Cb1k3);
 
-		 print_mat("My  R", R);
+		
 		 R = transpose_mat3(R);
 		 
 		 (*ANSER_R).push_back(R);
@@ -404,7 +404,7 @@
 		 
 
 		 vector<double> T = vec3_sub(temp, mat3_mul_vec3(R,P[2]));
-		 print_vec("my T", T);
+		
 		 (*ANSER_T).push_back(T);
 	 }
 
